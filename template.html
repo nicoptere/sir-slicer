@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./js/leaflet.css"/>
+        <script src="./js/leaflet.js"></script>
+        <style>
+            html,
+            body {
+                height: 100%;
+                padding: 0;
+                margin: 0;
+            }
+            #mapid {
+                height: 100%;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="mapid"></div>
+        <script>
+            var map = L.map('mapid').setView([0, 0], 0);
+            L.tileLayer('./{z}/{x}/{y}.{{extension}}', {
+                minZoom: 0,
+                maxZoom: {{zoom}},
+                noWrap: true
+            }).addTo(map);
+            map.setMaxBounds(map.getBounds());
+        </script>
+    </body>
+</html>
