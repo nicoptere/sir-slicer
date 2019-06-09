@@ -157,5 +157,5 @@ def main(image, folder_name = "out", file_format={"format":"png"}, tile_size=256
 
 if __name__ == "__main__":
 
-    main("sir_slicer.png", "tiles", {"format":"png", "quality":80} )
+    main("Venus--Magellan_Composite.jpg", "tiles", {"format":"jpg", "quality":80} )
     

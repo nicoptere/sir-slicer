@@ -1,5 +1,11 @@
 tiles
 butterflies
-tiles.jpg
-tiles_512.jpg
+insects
+test
+# tiles.jpg
+# tiles.png
+# tiles_512.jpg
 test.html
+*.tif
+*.jpg
+*.png
