@@ -1,5 +1,5 @@
 ![sir slicer](sir_slicer.png)
-## a Python utilty to slice a picture into a tilset
+## a Python utility to slice a picture into a tilset
 
 very rough around the edges but could be useful.
 
